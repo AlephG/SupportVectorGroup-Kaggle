@@ -20,8 +20,8 @@ Cleaned images are then augemented using the `keras` implementation of a `ImageD
 
 ### Xception Model
 
-The Xception CNN architecture used in this classification problem is the `keras` provided implementation with an early stopping callbakc, a learnign rate scheduler and stochastic gradient descent via Adam and trained for 40 epochs.
+The Xception CNN architecture used in this classification problem is the `keras` provided implementation with an early stopping callback, a learning rate scheduler and stochastic gradient descent via Adam and trained for 40 epochs.
 
 ### Results
 
-Classification on unseen test set resulted in 96% accuracy.
+Classification on training data resulted in 95% accuracy and classification on unseen the test set resulted in 96% accuracy.
